@@ -51,4 +51,4 @@ let f: true = false // error TS2322: 'false'타입을 'true'타입에 할당할 
 ## [유니온과 인터섹션 타입](../src/chapter3/union.ts)
 - Union: 합집합, Intersection: 교집합
 
-
+## 배열
