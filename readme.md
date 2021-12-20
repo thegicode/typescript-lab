@@ -63,4 +63,31 @@
 
 - 명령행 옵션 ```./node_moules/.bin/tsc/ --help``` 
 
+- tslint.json
+- ```./node_modules/.bin/tslint -init```
+```
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "semicolon": false,
+        "trailing-comma": false
+    },
+    "rulesDirectory": []
+}
+```
+
+## index.ts
+```
+./node_modules/.bin/tsc
+node ./dist/index.js
+```
+- ts-node 를 이용하면 명령 한 번으로 타입스크립트를 컴파일하고 
+
+
+
+
 
