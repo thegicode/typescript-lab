@@ -1,7 +1,7 @@
 # Chapter3 
 
 ## any
-- TSC 플래그 : noimplicititAny
+- TSC 플래그 : noImplicitAny
     - 타입스크립트의 기본 설정은 자유를 허용하므로 any로 추론되는 값을 발견하더라도 예외를 발생시키지 않는다. 
     그러나 암묵적인 any가 나타났을 때 예외를 일으키고 싶다면 tsconfig.json 파일에서 noImplicitAny 플래그를 활성화하자.
     noImplicitAny는 TSC 플래그의 strict 패밀리에 속하므로, strict를 활성화했다면 noImplicitAny를 활성화히자 않아도 된다.
