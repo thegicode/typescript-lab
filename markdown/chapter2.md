@@ -64,7 +64,7 @@
 - 명령행 옵션 ```./node_moules/.bin/tsc/ --help``` 
 
 - tslint.json
-- ```./node_modules/.bin/tslint -init```
+- ```./node_modules/.bin/tslint --init```
 ```
 {
     "defaultSeverity": "error",

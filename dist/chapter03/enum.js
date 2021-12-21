@@ -32,13 +32,13 @@ let a = Color[255]; // string
 let b = Color[6]; // string(!!!)
 // 유효한 enum 키 접근
 let c = 0 /* English */;
-// 유효하지 않은 enum 키 접근
-// let d = Language2.Tagalog
-// error TS2339: Property 'Tagalog' does not exist on type 'typeof Language2'.
-// 유효한 enum 키 접근
-// let e = Language2[0]
-// error TS2476: A const enum member can only be accessed using a string literal.
-// 유효하지 않은 enum 키 접근
-// let f = Language2[6]
-// error TS2476: A const enum member can only be accessed using a string literal.
+function flip(f) {
+    return 'flipped it';
+}
+flip("Chair" /* Chair */);
+flip("Cup" /* Cup */);
+// flip(12)
+// error TS2345: Argument of type '12' is not assignable to parameter of type 'Flippable'.
+// flip('Hat')
+// error TS2345: Argument of type '"Hat"' is not assignable to parameter of type 'Flippable'.
 //# sourceMappingURL=enum.js.map
