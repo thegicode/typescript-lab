@@ -18,11 +18,11 @@ let f: true = false // error TS2322: 'false'타입을 'true'타입에 할당할 
 - 타입 리터럴(type literal) : 오직 하나의 값을 나타내는 타입
 - 타입 리터럴은 모든 곳에서 일어날 수 있는 실수를 방지해 안전성을 추가로 확보해주는 강력한 언어 기능
 
-## symbol [코드](../src/chapter03/symbol.ts)
+## symbol [{code}](../src/chapter03/symbol.ts)
 - symbol 타입으로 추론되거나 아니면 명시적으로 unique symbol을 정의할 수 있다.
 - unique symbole도 결국 1, true, "literal" 등 다른 리터럴 타입과 마친가지로 특정 symbol을 나타내는 타입이다.
 
-## 객체 [코드](../src/chapter03/object.ts)
+## 객체 [{code}](../src/chapter03/object.ts)
 - Index signatrue [key: T]: U - '이 객체에서 모든 T 타입의 키는 U 타입의 값을 갖는다'
 - readonly 한정자를 이용해 특정 필드를 읽기 전용으로 정의할 수 있다. 
 - 타입스크립트에서 객체를 정의하는 방법
@@ -45,21 +45,21 @@ let f: true = false // error TS2322: 'false'타입을 'true'타입에 할당할 
 | Null | x | x | x |
 | undefined | x | x | x |
 
-## 타입 별칭 [코드](../src/chapter03/type.ts)
+## 타입 별칭 [{code}](../src/chapter03/type.ts)
 - 타입 별칭으로 타입을 가리킬 수 있다.
 - 타입 별칭은 복잡한 타입을 DRY(Don't Repeat Yourself, 같은 코드를 반복하지 않아야 한다, 실용주의 프로그래머)하지 않도록 해주며
 변수가 어떤 목적으로 사용되었는지 쉽게 이해할 수 있게 도와준다.
 
-## 유니온과 인터섹션 타입 [코드](../src/chapter03/union.ts)
+## 유니온과 인터섹션 타입 [{code}](../src/chapter03/union.ts)
 - Union: 합집합, Intersection: 교집합
 
-## 배열 [코드](../src/chapter03/array.ts)
+## 배열 [{code}](../src/chapter03/array.ts)
 - 문법 : T[], Array<T>
 - 배열을 선언하고 문자열 타입의 값을 추가했을 때 타입스크립트는 이 배열이 문자열 값을 갖는 배열이라 추론한다.
 - 객체와 마찬가지로 배열을 const로 만들어도 타입스크립트는 타임을 더 좁게 추론하지 않는다. 
 - 빈 배열을 초기화하면 타입스크립트는 배열의 요소 타입을 알 수 없으므로 any일 것으로 추측, 배열이 정의된 영역을 벗어나면 타입스크립트는 배열을 더 이상 확장할 수 없도록 최종 타입을 할당
 
-## 튜플 tutple [코드](../src/chapter03/tuple.ts)
+## 튜플 tutple [{code}](../src/chapter03/tuple.ts)
 - 배열의 서브타입
 - 길이가 고정, 각 인덱스의 타입이 알려진 배열의 일종
 - 선언할 때 타입을 명시해야 한다.
@@ -77,7 +77,7 @@ let f: true = false // error TS2322: 'false'타입을 'true'타입에 할당할 
 - never: 절대 반환하지 않는(예외를 던지거나 실행되는) 함수 타입
 - 엄격한 null 확인 : strictNullChecks 옵션을 false로 설정하면 다르게 동작한다.
 
-## 열거형 enum [코드](../src/chapter03/enum.ts)
+## 열거형 enum [{code}](../src/chapter03/enum.ts)
 - 해당 타입으로 사용할 수 있는 값을 열거
 - 키를 값에 할당하는, 순서가 없는 자료구조
 - 키가 컴파일에 고정된 객체
