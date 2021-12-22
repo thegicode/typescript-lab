@@ -1,9 +1,9 @@
 # Typescript-lab
 
-> npx tsc
+- npx tsc
     - tsconfig.json
-> npx tsc ${file}
-> npx ts-node ${file}
+- npx tsc ${file}
+- npx ts-node ${file}
     - js 파일로 build 하지 않고 바로 검사
 
 ## [2장 타입스크립트](./markdown/chapter2.md) 
