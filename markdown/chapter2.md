@@ -1,4 +1,4 @@
-# Chapter2
+# Chapter2 타입스크립트
 
 ## 컴파일러
 - TS and JS

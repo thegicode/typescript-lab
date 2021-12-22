@@ -1,4 +1,4 @@
-# Chapter3 
+# Chapter3 타입의 모든 것
 
 ## any
 - TSC 플래그 : noImplicitAny
