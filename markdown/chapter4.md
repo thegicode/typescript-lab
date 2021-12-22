@@ -72,6 +72,6 @@ function add(a: number, b: number): number {
 - this의 동작은 예상과 크게 다를 수 있다.
     - 어떻게 선언하느냐가 아니라 함수를 어떻게 호출하느냐에 영향을 받는다.
 - this 타입을 함수의 첫 번째 매개변수로 선언하자.
-- TSC 플래그 : noimplicitThis
+- TSC 플래그 : noImplicitThis
     - 항상 this 타입을 명시적으로 설정하도록 강제
     - 단, 클래스와 객체의 함수에는 this를 지정하라고 강제하지 않는다.
