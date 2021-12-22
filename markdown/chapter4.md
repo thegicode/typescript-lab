@@ -52,12 +52,12 @@ function add(a: number, b: number): number {
 - 매개변수에 기본값을 지정할 수 있다.
 - 기본 매개변수에 타입을 명시할 수 있다.
 
-### 1.2 나머지 매개변수 [{code}](../src/chapter4/function.1.2.ts)
+### 1.2 나머지 매개변수 [{code}](../src/chapter4/rest.ts)
 - 자바스크립트 런타임이 함수에 자동으로 arguments를 정의해 개발자가 함수로 전달한 인수 목록을 할당한다.
 - But arguments는 안전하지 않다. 타입스크립트에서는 인수를 받을 수 없으므로 TypeError 발생
 - 나머지 매개변수(rest parameters)를 이용한다. 
 
-### 1.3 call, apply, bind [{code}](../src/chapter4/function.1.3.ts)
+### 1.3 call, apply, bind [{code}](../src/chapter4/callApplyBind.ts)
 - apply: 함수 안에서 값을 this로 한정, 두 번째 인수를 펼쳐 함수에 매개변수로 전달
 - call: apply와 같은 기능을 수행하지만 인수를 펼치지 않고 순서대로 전달
 - bind: 함수를 호출하지 않고 새로운 함수를 반환. ()나 .call(), .apply()
@@ -65,4 +65,4 @@ function add(a: number, b: number): number {
     - .call, .apply, .bind를 안전하게 사용하려면 tsconfig.json에서 strictBindCallApply를 활성화
     - strict 모드를 이미 활성화했다면 이 옵션은 자동으로 활성화됨
 
-    
+### 1.4 this의 타입

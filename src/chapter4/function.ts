@@ -28,7 +28,7 @@ type Context = {
     addId?: string
     userId?: string
 }
-function log(message: string, context: Context = {}) {
+function log3(message: string, context: Context = {}) {
     let time = new Date().toISOString()
     console.log(time, message, context.userId)
 }
