@@ -75,3 +75,9 @@ function add(a: number, b: number): number {
 - TSC 플래그 : noImplicitThis
     - 항상 this 타입을 명시적으로 설정하도록 강제
     - 단, 클래스와 객체의 함수에는 this를 지정하라고 강제하지 않는다.
+
+### 1.5 제너레이터 함수 generator function [{code}](../src/chapter4/generator.ts)
+- 여러 개의 값을 생성하는 편리한 기능을 제공
+- 값을 생산하는 속도도 정교하게 조절할 수 있다.
+- 게으르게 동작(소비자가 요청해야만 다음 값을 계산)
+- IterableIterator
