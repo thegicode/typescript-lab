@@ -65,4 +65,13 @@ function add(a: number, b: number): number {
     - .call, .apply, .bind를 안전하게 사용하려면 tsconfig.json에서 strictBindCallApply를 활성화
     - strict 모드를 이미 활성화했다면 이 옵션은 자동으로 활성화됨
 
-### 1.4 this의 타입
+### 1.4 this의 타입 [{code}](../src/chapter4/this.ts)
+- 많은 개발팀은 클래스 메서드를 제외한 다른 모든 곳에서 this 사용을 금한다.
+    - TSLint 규칙에서 no-invalid-this를 활성화
+- this가 문제를 일으키는 원인은 바로 그 할당 방법
+- this의 동작은 예상과 크게 다를 수 있다.
+    - 어떻게 선언하느냐가 아니라 함수를 어떻게 호출하느냐에 영향을 받는다.
+- this 타입을 함수의 첫 번째 매개변수로 선언하자.
+- TSC 플래그 : noimplicitThis
+    - 항상 this 타입을 명시적으로 설정하도록 강제
+    - 단, 클래스와 객체의 함수에는 this를 지정하라고 강제하지 않는다.
