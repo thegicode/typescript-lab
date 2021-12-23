@@ -93,3 +93,12 @@ function add(a: number, b: number): number {
     - 2015 이전 버전의 자바스크립트로 컴파일할 때 활성화
     - 번들 크기가 커지는 것을 원하지 않으면 비활성화
 
+### 1.7 호출 시그니처 call signature, 타입 시그니처 type signature [{code}](../src/chapter4/signature.ts)
+- 타입스크립트의 함수 타입 문법
+```
+(a: number, b: number) => number
+```
+- 타입 수준 코드: 타입과 타입 연산을 포함하는 코드를 의미
+- 값 수준 코드: 그 밖의 모든 것
+- 함수의 호출 시그니처는 구현 코드와 거의 같다.
+
