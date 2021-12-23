@@ -5,8 +5,8 @@ function* createNumbers() {
         yield n++;
     }
 }
-let numers = createNumbers();
-console.log(numers.next());
-console.log(numers.next());
-console.log(numers.next());
+let numbers_gs = createNumbers();
+console.log(numbers_gs.next());
+console.log(numbers_gs.next());
+console.log(numbers_gs.next());
 //# sourceMappingURL=generator.js.map

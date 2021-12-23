@@ -80,4 +80,16 @@ function add(a: number, b: number): number {
 - 여러 개의 값을 생성하는 편리한 기능을 제공
 - 값을 생산하는 속도도 정교하게 조절할 수 있다.
 - 게으르게 동작(소비자가 요청해야만 다음 값을 계산)
-- IterableIterator
+- IterableIterator에서 방출하는 타입을 감싸서 제너레이터의 타입을 명시
+
+### 1.6 반복자 iterator [{code}](../src/chapter4/iterator.ts)
+- 반복자와 제너레이터는 상생관계, 제너레이터로 값의 스트림을 생성할 수 있고 반복자로 생성된 값을 소비
+- 이터러블 (iterable, 반복할 수 있는)
+    - Symbol.iterator라는 프로퍼티(반복자를 반환하는 함수)를 가진 모든 객체
+- 반복자 (iterator)
+    - next라는 메서드(value, done 두 프로퍼티를 가진 객체를 반환)를 정의한 객체
+- createFibonacciGenerator 함수를 호출하면 Symbol.iterator 프로퍼티와 next 메서드를 모두 정의한 한 값을 얻게 된다. 이터러블과 반복자 두 가지가 결합된 제너레이터가 반환된다.
+- TSC 플래그: downlevelIteration
+    - 2015 이전 버전의 자바스크립트로 컴파일할 때 활성화
+    - 번들 크기가 커지는 것을 원하지 않으면 비활성화
+

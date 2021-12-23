@@ -1,6 +1,6 @@
 
 /** 
-function* createFinonacciGenerator() {
+function* createFibonacciGenerator() {
     let a = 0
     let b = 1
     while (true) {
@@ -9,7 +9,7 @@ function* createFinonacciGenerator() {
     }
 }
 
-let  fibonacciGenerator = createFinonacciGenerator()
+let  fibonacciGenerator = createFibonacciGenerator()
 */
 
 function* createNumbers(): IterableIterator<number> {
@@ -18,7 +18,7 @@ function* createNumbers(): IterableIterator<number> {
         yield n++
     }
 }
-let numers = createNumbers()
-console.log( numers.next() )    // { value: 0, done: false }
-console.log( numers.next() )    // { value: 1, done: false }
-console.log( numers.next() )    // { value: 2, done: false }
+let numbers_gs = createNumbers()
+console.log( numbers_gs.next() )    // { value: 0, done: false }
+console.log( numbers_gs.next() )    // { value: 1, done: false }
+console.log( numbers_gs.next() )    // { value: 2, done: false }
