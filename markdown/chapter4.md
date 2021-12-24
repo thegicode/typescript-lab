@@ -102,3 +102,4 @@ function add(a: number, b: number): number {
 - 값 수준 코드: 그 밖의 모든 것
 - 함수의 호출 시그니처는 구현 코드와 거의 같다.
 
+### 1.8 문맥적 타입화 contextual typing

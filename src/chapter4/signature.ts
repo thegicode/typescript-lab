@@ -12,7 +12,7 @@ type SumVariadicSafe = (...numbers: number[]) => number
 
 
 /** 기존의 Log 함수를 새로운 시그니처에 맞게 다시 구현 */
-let log_signatrue: Log = (
+let log: Log = (
     message,
     userId = 'Not signed in'
  ) => {
@@ -20,5 +20,7 @@ let log_signatrue: Log = (
     console.log(time, message, userId)
 }
 
-log_signatrue('good day')
-log_signatrue('enjoy typescript', 'thegicode')
+log('good day')
+log('enjoy typescript', 'thegicode')
+
+export {}
