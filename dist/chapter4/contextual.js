@@ -6,8 +6,4 @@ function times(f, n) {
     }
 }
 times(n => console.log(n), 4);
-function f(n) {
-    console.log(n);
-}
-times(f, 4);
 //# sourceMappingURL=contextual.js.map
