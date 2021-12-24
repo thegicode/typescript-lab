@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let a = [1, 2, 3];
 var b = ['a', 'b'];
 let c = ['a'];
@@ -11,7 +12,6 @@ g.push(1);
 g.push('red');
 let h = [];
 h.push(1);
-h.push('red');
 function buildArray() {
     let a = [];
     a.push(1);
@@ -19,5 +19,4 @@ function buildArray() {
     return a;
 }
 let myArray = buildArray();
-myArray.push(true);
 //# sourceMappingURL=array.js.map

@@ -76,3 +76,5 @@ user.fristName
 // user.fristName = 'abbey with an e'  
 // error TS2540, 'firstName'은 읽기 전용 프로퍼티이므로 할당할 수 없음
 
+
+export {}

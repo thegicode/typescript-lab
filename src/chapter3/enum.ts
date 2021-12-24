@@ -72,3 +72,5 @@ flip(Flippable.Cup)
 // error TS2345: Argument of type '12' is not assignable to parameter of type 'Flippable'.
 // flip('Hat')
 // error TS2345: Argument of type '"Hat"' is not assignable to parameter of type 'Flippable'.
+
+export {}

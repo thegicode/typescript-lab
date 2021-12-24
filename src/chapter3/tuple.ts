@@ -30,7 +30,7 @@ let bs: readonly number[] = as.concat(4)    // readonly number[]
 let three = bs[2]   // number
 // as[4] = 5   
 // error TS2542: Index signature in type 'readonly number[]' only permits reading.
-as.push(6)
+// as.push(6)
 // error TS2339: Property 'push' does not exist on type 'readonly number[]'.
 
 type A = readonly string[]      // readonly string[]
@@ -40,3 +40,4 @@ type C = Readonly<string[]>     // readonly string[]
 type D = readonly [number, string]  // readonly [number, string]
 type E = Readonly<[number, string]> // readonly [number, string]
 
+export {}

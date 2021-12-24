@@ -14,7 +14,7 @@ g.push('red')   // (string | number)[]
 
 let h: number[] = []
 h.push(1)
-h.push('red')   // error TS2345: 'red' 타입 인수를 'number'타입 매개변수에 할당할 수 없음
+// h.push('red')   // error TS2345: 'red' 타입 인수를 'number'타입 매개변수에 할당할 수 없음
 
 function buildArray() {
     let a = []  // any[]
@@ -23,4 +23,6 @@ function buildArray() {
     return a
 }
 let myArray = buildArray()  // (string | number)[]
-myArray.push(true)  // error TS2345: 'true' 타입의 인수는 'string | number' 타입의 매개변수에 할당할 수 없음
+// myArray.push(true)  // error TS2345: 'true' 타입의 인수는 'string | number' 타입의 매개변수에 할당할 수 없음
+
+export {}

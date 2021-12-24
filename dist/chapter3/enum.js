@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var Language;
 (function (Language) {
     Language[Language["English"] = 100] = "English";

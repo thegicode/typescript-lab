@@ -13,5 +13,4 @@ let list = [1, false, 'a', 'b', 'c'];
 let as = [1, 2, 3];
 let bs = as.concat(4);
 let three = bs[2];
-as.push(6);
 //# sourceMappingURL=tuple.js.map

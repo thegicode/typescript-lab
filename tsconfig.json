@@ -2,13 +2,13 @@
     "compilerOptions": {
         "lib": ["es2015"],
         "module": "commonjs",
-        "outDir": "dist/chapter4",
+        "outDir": "dist/chapter3",
         "sourceMap": true,
         "strict": true,
         "target": "ES2015",
         "removeComments": true
     },
     "include": [
-        "src/chapter4"
+        "src/chapter3"
     ]
 }

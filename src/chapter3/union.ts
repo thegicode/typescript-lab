@@ -45,3 +45,5 @@ type Returns =  string | null
 // function(a: string, b: number) {
 //     return a || b
 // }
+
+export {}

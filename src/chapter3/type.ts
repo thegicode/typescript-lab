@@ -10,3 +10,5 @@ let driver: Person = {
     age: age
 }
 
+
+export {}
