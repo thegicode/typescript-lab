@@ -105,7 +105,7 @@ function add(a: number, b: number): number {
 ### 1.8 문맥적 타입화 contextual typing [{code}](../src/chapter4/contextual.ts)
 - 타입 추론 기능
 
-### 1.9 오버로드된 함수 타입 
+### 1.9 오버로드된 함수 타입 [{code}](../src/chapter4/overloading.ts)
 - 단축형 호출 시그니처 shorthand call signature
 ```
     type Log = (meesage: string, userId?: string) => void
