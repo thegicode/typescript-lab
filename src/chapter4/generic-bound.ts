@@ -12,7 +12,7 @@ type Filter = {
 
 
 /** 2 */
-type Filter<T> = {
+type Filter2<T> = {
     (array: T[], f: (item: T) => boolean): T[]
 }
 // let filter: Filter<number> = 
@@ -23,7 +23,7 @@ type Filter<T> = {
 
 
 /** 3 */
-type Filter = <T>(array: T[], f: (item: T) => boolean) => T[]
+type Filter3 = <T>(array: T[], f: (item: T) => boolean) => T[]
 // let filter: Filter =
 
 // 1과 비슷하지만 전체 시그니처가 아니라 단축 호출 시그니처다.
@@ -31,14 +31,14 @@ type Filter = <T>(array: T[], f: (item: T) => boolean) => T[]
 
 
 /** 4 */
-type Filter<T> = (array: T[], f: (item: T) => boolean) => T[]
+type Filter4<T> = (array: T[], f: (item: T) => boolean) => T[]
 // let filter: Filter<string>  
 
 // 2와 비슷하지만 전체 시그니처가 아니라 단축 호출 시그니처다.
 
 /** 5 */
 function filter<T>(array: T[], f: (item: T) => boolean): T[] {
-    // 
+    return []
 }
 
 // T를 시그니처 범위로 한정한, 이름을 갖는 함수 호출 시그니처.
