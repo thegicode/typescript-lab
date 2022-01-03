@@ -26,3 +26,7 @@
 ## 2 제네릭을 어디에 선언할 수 있을까? [{code}](../src/chapter4/generic-where.ts)
 
 ## 3 제네릭 타입 추론 [{code}](../src/chapter4/generic-inference.ts)
+
+## 4 제네릭 타입 별칭 [{code}](../src/chapter4/generic-alias.ts)
+- Array와 ReadonlyArray 타입도 제네릭 타입 별칭
+- 타입 별칭에서는 타입 별칭명과 할당 기호(=) 사이에만 제네릭 타입을 선언할 수 있다.
