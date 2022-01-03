@@ -24,3 +24,5 @@
 - 제네릭 타입을 사용하는 순간에 제네릭과 구체 타입을 한정한다.
 
 ## 2 제네릭을 어디에 선언할 수 있을까? [{code}](../src/chapter4/generic-where.ts)
+
+## 3 제네릭 타입 추론 [{code}](../src/chapter4/generic-inference.ts)
