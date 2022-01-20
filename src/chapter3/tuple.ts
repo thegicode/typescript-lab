@@ -1,4 +1,3 @@
-import { type } from "os"
 
 let a: [number] = [1]
 
