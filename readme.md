@@ -23,5 +23,6 @@
 ### [5.7 다형성](./markdown/chapter5.7.md) 
 ### [5.8 믹스인](./markdown/chapter5.8.md) 
 ### [5.10 final 클래스 흉내내기](./markdown/chapter5.10.md) 
+### [5.11 디자인 패턴](./markdown/chapter5.11.md) 
 
 
