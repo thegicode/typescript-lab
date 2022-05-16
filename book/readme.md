@@ -25,4 +25,7 @@
 ### [5.10 final 클래스 흉내내기](./markdown/chapter5.10.md) 
 ### [5.11 디자인 패턴](./markdown/chapter5.11.md) 
 
+### [연습문제](../src/chapter5/5.ex.ts)
+
+
 
