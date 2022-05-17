@@ -6,9 +6,7 @@
     "scripts": {
         "start": "node app",
         "tsc": "npx tsc -w",
-        "eslint": "npx eslint --ext .js static",
-        "prettier-check": "npx prettier --check static/",
-        "prettier-write": "npx prettier --write static/",
+        "lint": "npx eslint --ext .js static",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
