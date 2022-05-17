@@ -7,4 +7,4 @@ console.log(
 )
 
 const foo = 'agieigie'
-console.log('egk', foo)
+console.log('egk')
