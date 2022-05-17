@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "lib": ["es2015", "DOM"],
+        "module": "es2015",
+        "outDir": "static",
+        "strict": true,
+        "target": "ES2015"
+    },
+    "include": [
+        "src"
+    ]
+}
