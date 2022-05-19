@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "start": "node app",
-        "tsc": "npx tsc -w",
-        "lint": "npx eslint --ext .ts src tests",
+        "tsc": "tsc -w",
+        "lint": "eslint --ext .ts src",
         "test": "jest --watch"
     },
     "author": "",

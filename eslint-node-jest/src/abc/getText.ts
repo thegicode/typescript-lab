@@ -1,0 +1,3 @@
+exports.getText = () => {
+  return "text";
+};
