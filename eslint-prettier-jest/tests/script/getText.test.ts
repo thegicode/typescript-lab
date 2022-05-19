@@ -1,5 +1,5 @@
-import { getText } from "../../src/script/getText";
+import { getText } from '../../src/script/getText'
 
-test("get text", () => {
-  expect(getText()).toBe("text");
-});
+test('get text', () => {
+    expect(getText()).toBe('text')
+})

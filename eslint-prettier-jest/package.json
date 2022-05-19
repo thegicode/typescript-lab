@@ -6,8 +6,8 @@
     "scripts": {
         "start": "node app",
         "tsc": "npx tsc -w",
-        "lint": "npx eslint --ext .ts src",
-        "test": "jest"
+        "lint": "npx eslint --ext .ts src tests",
+        "test": "jest --watch"
     },
     "author": "",
     "license": "ISC",
