@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tsc": "npx tsc -w",
-    "test": "jest"
+    "tsc": "tsc -w",
+    "test": "jest",
+    "test:c": "jest --coverage"
   },
   "repository": {
     "type": "git",
