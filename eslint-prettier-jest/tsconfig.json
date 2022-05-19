@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true, // ES6 모듈 사양을 준수하여 CommonJS 모듈을 가져올 수 있게 한다.
+        "lib": ["ESNext", "DOM"],
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "outDir": "static",
+        "strict": true,
+        "target": "ESNext"
+    },
+    "include": ["src"]
+}
