@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app",
-    "tsc": "npx tsc -w",
+    "tsc": "tsc -w",
+    "lint": "eslint --ext .ts src --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

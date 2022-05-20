@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "tsc": "tsc -w",
-    "test": "jest",
-    "test:c": "jest --coverage"
+    "test": "jest --runInBand --silent"
   },
   "repository": {
     "type": "git",
