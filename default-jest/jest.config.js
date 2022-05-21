@@ -2,7 +2,8 @@
 module.exports = {
   // cacheDirectory: __dirname + '/.jest_cache',
   // roots: ["<rootDir>/src"],
-  testRegex: "(.*.(test)).(js?|ts?)$",
+  // testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$", // default
+  // testMatch: [ "**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[jt]s?(x)" ] // default
   // moduleFileExtensions: ["ts", "js", "json"],
   // setupFiles: ['./src/testing/preRun.ts'],
   // preset: "ts-jest",
